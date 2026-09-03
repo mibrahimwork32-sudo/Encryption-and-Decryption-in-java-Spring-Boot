@@ -1,0 +1,5 @@
+Name: ibrahim,qasim,muneeba
+class: bce-7A
+Rollnos: 01-132232-030,033-040
+Purpose: To understand the basics of encryptions AES 256
+This is original data we will encrypt it and then store the cypher text of data on decrypted file.
