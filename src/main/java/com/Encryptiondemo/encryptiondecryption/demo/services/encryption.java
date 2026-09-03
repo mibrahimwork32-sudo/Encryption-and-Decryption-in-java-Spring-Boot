@@ -27,7 +27,7 @@ public class encryption {
                 cipher.init(cipher.ENCRYPT_MODE,key);
                 byte[] encryptbytes = cipher.doFinal(readData.getoriginal().getBytes());
                 String readablecipher = Base64.getEncoder().encodeToString(encryptbytes);
-                 Files.writeString(Path.of("C:\\Users\\Public\\Documents\\INTERNSHP PROJECTS INTELIJ\\encryptiondecryption-demo\\Encrypteddata.txt"),readablecipher);
+                 Files.writeString(Path.of("C:\\Users\\Public\\Documents\\encryptiondecryption-demo\\Encrypteddata.txt"),readablecipher);
                   return readablecipher;
     }
 }
