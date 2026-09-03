@@ -12,7 +12,7 @@ public class readData {
     }
     //read Encrypted data
     public String getencrypted()throws Exception {
-        String Encrypt = Files.readString(Path.of("C:\\Users\\Public\\Documents\\INTERNSHP PROJECTS INTELIJ\\encryptiondecryption-demo\\Encrypteddata.txt"));
+        String Encrypt = Files.readString(Path.of("C:\\Users\\Public\\Documents\\encryptiondecryption-demo\\Encrypteddata.txt"));
         return Encrypt;
     }
 
