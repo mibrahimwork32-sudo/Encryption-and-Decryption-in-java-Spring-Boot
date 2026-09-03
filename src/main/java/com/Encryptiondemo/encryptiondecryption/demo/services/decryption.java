@@ -32,7 +32,7 @@ public class decryption {
         String decryptedData =
                 new String(decryptedBytes);
         Files.writeString(
-                Path.of("C:\\Users\\Public\\Documents\\INTERNSHP PROJECTS INTELIJ\\encryptiondecryption-demo\\Decrypteddata.txt"),
+                Path.of("C:\\Users\\Public\\Documents\\encryptiondecryption-demo\\Decrypteddata.txt"),
                 decryptedData
         );
         return decryptedData;
